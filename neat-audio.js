@@ -31,7 +31,7 @@ function decodeAudio(arrayBuffer) {
  * A simple Audio API for interacting with the young web audioContext
  * @type {{}}
  */
-var NeatAudioJS = {
+var NeatAudio = {
 
   /**
    * Fetches a sound through XMLHttpRequest and then decodes it.
@@ -64,4 +64,4 @@ var NeatAudioJS = {
 
 };
 
-module.exports = NeatAudioJS;
+module.exports = NeatAudio;
